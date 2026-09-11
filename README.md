@@ -126,9 +126,11 @@ New projects and ideas will be added soon.
 <br>
 
 ## 📈 GitHub Activity
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soniya-dev02&theme=tokyo-night&hide_border=true" alt="GitHub Activity Graph" width="100%" />
+<img src="https://raw.githubusercontent.com/soniya-dev02/soniya-dev02/output/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
 
+</div>
 <br>
 
 ## 🏆 GitHub Trophies
