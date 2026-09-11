@@ -126,9 +126,9 @@ New projects and ideas will be added soon.
 <br>
 
 ## 📈 GitHub Activity
-<div align="center">
+<div>
 
-<img src="https://raw.githubusercontent.com/soniya-dev02/soniya-dev02/output/activity-graph.svg" alt="GitHub Activity Graph" width="100%" />
+<img src="https://raw.githubusercontent.com/soniya-dev02/soniya-dev02/output/activity-graph.svg" alt="GitHub Activity Graph" width="60%" />
 
 </div>
 <br>
