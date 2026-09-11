@@ -1,0 +1,33 @@
+name: Update GitHub Trophies
+
+on:
+  schedule:
+    - cron: "10 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate GitHub Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: soniya-dev02
+          output_path: profile/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: tokyo-night
+
+      - name: Commit updated trophies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/trophy.svg
+          git commit -m "Update GitHub trophies" || exit 0
+          git push
