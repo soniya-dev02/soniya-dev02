@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-6F9FC2?style=flat-square&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="YOUR_PORTFOLIO_LINK">
+<a href="https://soniya-dev02.github.io/Portfolio">
   <img src="https://img.shields.io/badge/Portfolio-6FA88D?style=flat-square" />
 </a>
 
